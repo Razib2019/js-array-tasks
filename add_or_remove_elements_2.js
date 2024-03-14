@@ -6,3 +6,13 @@
     4. Remove the last tourist destination you have added
     5. display the final array as output
 */
+
+let places = ["Sundarban", "Bandarban", "Saint Martin"];
+places.push("Cox's Bazzar");
+console.log(places);
+
+places.push("Sajek", "kuyaKata");
+console.log(places);
+
+places.pop("kuyaKata");
+console.log(places);
